@@ -5,7 +5,7 @@ using SociaLib;
 namespace Test.SocialLib
 {
   [TestFixture()]
-	public class TestTinyCcShortener
+  public class TestTinyCcShortener
   {
     const string API_KEY = "**PLACEHOLDER**";
 
