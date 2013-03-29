@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SociaLib", "SociaLib\SociaLib.csproj", "{D31EA52E-3404-47D1-A521-323E09D34C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SocialLib", "Test.SocialLib\Test.SocialLib.csproj", "{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31EA52E-3404-47D1-A521-323E09D34C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31EA52E-3404-47D1-A521-323E09D34C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31EA52E-3404-47D1-A521-323E09D34C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31EA52E-3404-47D1-A521-323E09D34C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SociaLib\SociaLib.csproj
+	EndGlobalSection
+EndGlobal
