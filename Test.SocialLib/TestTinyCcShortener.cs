@@ -4,25 +4,26 @@ using SociaLib;
 
 namespace Test.SocialLib
 {
-  [TestFixture()]
-  public class TestTinyCcShortener
-  {
-    const string API_KEY = "**PLACEHOLDER**";
-
-    [Test()]
-    public void NewShortLink_Random()
+    [TestFixture()]
+    public class TestTinyCcShortener
     {
-      ILinkShortener tinycc = new TinyCcShortener(API_KEY);
-      tinycc.OriginalLink = new Uri("http://www.codemastershawn.com/blog");
+        // TODO: Store API key in a workstation-specific config file
+        const string API_KEY = "**PLACEHOLDER**";
 
-      Assert.IsNotNull(tinycc);
+        [Test()]
+        public void NewShortLink_Random()
+        {
+            ILinkShortener tinycc = new TinyCcShortener(API_KEY);
+            tinycc.OriginalLink = new Uri("http://www.codemastershawn.com/blog");
 
-      Uri shortUrl = tinycc.Shorten();
+            Assert.IsNotNull(tinycc);
 
-      Assert.IsNotNull(shortUrl);
-      Assert.AreEqual("http", shortUrl.Scheme);
-      Assert.AreEqual("tiny.cc", shortUrl.Host);
+            Uri shortUrl = tinycc.Shorten();
+
+            Assert.IsNotNull(shortUrl);
+            Assert.AreEqual("http", shortUrl.Scheme);
+            Assert.AreEqual("tiny.cc", shortUrl.Host);
+        }
     }
-  }
 }
 
