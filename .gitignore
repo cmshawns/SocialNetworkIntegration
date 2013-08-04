@@ -12,3 +12,7 @@ obj
 *.resources
 test-results/
 
+# Workstation-specific files
+my*.config
+*/my*.config
+Test.SocialLib/myAppSettings.config

@@ -38,6 +38,7 @@
       <Private>False</Private>
       <Package>mono-nunit</Package>
     </Reference>
+    <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestTinyCcShortener.cs" />
@@ -48,5 +49,8 @@
       <Project>{D31EA52E-3404-47D1-A521-323E09D34C7C}</Project>
       <Name>SociaLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
 </Project>

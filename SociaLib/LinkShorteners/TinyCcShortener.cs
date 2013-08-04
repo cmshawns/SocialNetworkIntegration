@@ -56,10 +56,10 @@ namespace SociaLib
 
             if (request != null)
             {
-                HttpWebResponse response;
+                HttpWebResponse response = null;
                 try
                 {
-                    response = request.GetResponse();
+                    response = request.GetResponse() as HttpWebResponse;
                     // TODO: Extract the short URL from the response.
 
                 } finally
