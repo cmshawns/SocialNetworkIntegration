@@ -51,3 +51,6 @@ This library is being developed with the following:
     * Mono 2.10.8.1-5~dhx1~precise1
     * MonoDevelop 3.0.3.2+dfsg-1~dhx1~precise1
     
+### Project management
+
+This project is currently being managed with Jira: https://socialib.atlassian.net/
