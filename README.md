@@ -63,5 +63,6 @@ This library is being developed with the following:
 * On Linux
     * Mono 2.10.8.1-5~dhx1~precise1
     * MonoDevelop 3.0.3.2+dfsg-1~dhx1~precise1
-    * [Pencil](http://pencil.evolus.vn/) 2.0.3 - for diagrams
+* On all platforms
+    * Diagrams: [Evolus Pencil](http://pencil.evolus.vn/) and [Dia](http://dia-installer.de/index.html.en)
     
