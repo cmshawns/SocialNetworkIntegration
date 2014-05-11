@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug-Linux</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{C7CF6EF7-89AB-4894-84E1-5F5DC02D8B09}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -43,7 +43,7 @@
     <WarningLevel>4</WarningLevel>
     <CustomCommands>
       <CustomCommands>
-        <Command type="AfterBuild" command="copy /y &quot;${ProjectDir}/myAppSettings.config&quot; &quot;${TargetDir}&quot;" />
+        <Command type="AfterBuild" command="&quot;%systemroot%\system32\xcopy.EXE&quot; /y &quot;${ProjectDir}\myAppSettings.config&quot; &quot;${TargetDir}&quot;" workingdir="${ProjectDir}" externalConsole="True" pauseExternalConsole="True" />
       </CustomCommands>
     </CustomCommands>
     <ConsolePause>false</ConsolePause>
@@ -52,10 +52,10 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="nunit.core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
-      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="nunit.framework, Version=2.6.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
-      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
   </ItemGroup>
   <ItemGroup>
