@@ -58,11 +58,16 @@ At that stage, I'll be looking for even more help - especially with testing.
 
 #### Development specs
 
-This library is being developed with the following:
+This library is being developed with the following frameworks and tools:
 
 * On Linux
-    * Mono 2.10.8.1-5~dhx1~precise1
-    * MonoDevelop 3.0.3.2+dfsg-1~dhx1~precise1
+    * [Mono](http://www.mono-project.com/) 3.2.8
+    * [MonoDevelop](http://monodevelop.com/) 4.0.12
+* On Windows
+    * Microsoft .NET Framework 4.0
+    * [Xamarin Studio](http://xamarin.com/studio) 4.2.5
+    * Visual Studio 2010
 * On all platforms
-    * Diagrams: [Evolus Pencil](http://pencil.evolus.vn/) and [Dia](http://dia-installer.de/index.html.en)
+    * [Dia](http://dia-installer.de/index.html.en) - UML diagrams
+    * [Evolus Pencil](http://pencil.evolus.vn/) - other diagrams
     
